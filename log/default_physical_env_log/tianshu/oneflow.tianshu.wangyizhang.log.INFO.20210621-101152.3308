@@ -1,0 +1,28 @@
+Log file created at: 2021/06/21 10:11:52
+Running on machine: tianshu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0621 10:11:52.088773  3308 global.h:36] NewGlobal 14cudaDeviceProp
+I0621 10:11:52.222545  3308 global.h:36] NewGlobal N7oneflow7EnvDescE
+I0621 10:11:52.222591  3308 global.h:36] NewGlobal N7oneflow10ProcessCtxE
+I0621 10:11:52.222599  3308 env_global_objects_scope.cpp:112] using rpc backend: local
+I0621 10:11:52.222613  3308 global.h:36] NewGlobal N7oneflow12ResourceDescE
+I0621 10:11:52.222620  3308 global.h:36] NewGlobal N7oneflow12ResourceDescE
+I0621 10:11:52.231318  3308 global.h:36] NewGlobal N7oneflow10ThreadPoolE
+I0621 10:11:52.239882  3308 global.h:36] NewGlobal N7oneflow16EagerNcclCommMgrE
+I0621 10:11:52.239899  3308 global.h:36] NewGlobal N7oneflow18CudnnConvAlgoCacheE
+I0621 10:11:52.239904  3308 global.h:36] NewGlobal N7oneflow2vm19VirtualMachineScopeE
+I0621 10:11:52.239912  3308 global.h:36] NewGlobal N7oneflow9OneflowVME
+I0621 10:11:52.308109  3308 global.h:36] NewGlobal N7oneflow27EagerJobBuildAndInferCtxMgrE
+I0621 10:11:52.308190  3308 global.h:36] NewGlobal N7oneflow12EpollCommNetE
+I0621 10:11:52.308300  3308 epoll_comm_network.cpp:63] CommNet:Epoll listening on 0.0.0.0:33029
+I0621 10:11:52.308337  3308 epoll_comm_network.cpp:198] machine 0 sockfd -1
+I0621 10:11:52.308475  3308 global.h:36] NewGlobal N7oneflow9TransportE
+I0621 10:11:52.469638  3308 global.h:43] DeleteGlobal N7oneflow12ResourceDescE
+I0621 10:11:52.469703  3308 version.cpp:23] OneFlow git version: 3af1b270f
+I0621 10:11:52.469719  3308 device_register_gpu.cpp:56] CUDA runtime version: 11.2
+I0621 10:11:52.469738  3308 device_register_gpu.cpp:65] cuDNN version: 8.1.1
+I0621 10:11:52.469741  3308 device_register_gpu.cpp:76] NCCL version: 20.9.8
+I0621 10:11:52.469745  3308 global.h:36] NewGlobal N7oneflow12ResourceDescE
+I0621 10:11:52.469749  3308 global.h:36] NewGlobal N7oneflow6IOConfE
+I0621 10:11:52.469754  3308 global.h:36] NewGlobal N7oneflow12ProfilerConfE
+I0621 10:11:52.469760  3308 session.h:53] NewGlobal N7oneflow25SessionGlobalObjectsScopeE

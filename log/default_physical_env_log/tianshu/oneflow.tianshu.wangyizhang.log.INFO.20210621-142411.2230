@@ -1,0 +1,29 @@
+Log file created at: 2021/06/21 14:24:11
+Running on machine: tianshu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0621 14:24:11.495802  2230 global.h:36] NewGlobal 14cudaDeviceProp
+I0621 14:24:11.607221  2230 global.h:36] NewGlobal N7oneflow7EnvDescE
+I0621 14:24:11.607250  2230 global.h:36] NewGlobal N7oneflow10ProcessCtxE
+I0621 14:24:11.607259  2230 env_global_objects_scope.cpp:112] using rpc backend: local
+I0621 14:24:11.607270  2230 global.h:36] NewGlobal N7oneflow12ResourceDescE
+I0621 14:24:11.607277  2230 global.h:36] NewGlobal N7oneflow12ResourceDescE
+I0621 14:24:11.608834  2230 global.h:36] NewGlobal N7oneflow10ThreadPoolE
+I0621 14:24:11.617583  2230 global.h:36] NewGlobal N7oneflow16EagerNcclCommMgrE
+I0621 14:24:11.617597  2230 global.h:36] NewGlobal N7oneflow18CudnnConvAlgoCacheE
+I0621 14:24:11.617601  2230 global.h:36] NewGlobal N7oneflow2vm19VirtualMachineScopeE
+I0621 14:24:11.617605  2230 global.h:36] NewGlobal N7oneflow9OneflowVME
+I0621 14:24:11.684554  2230 global.h:36] NewGlobal N7oneflow27EagerJobBuildAndInferCtxMgrE
+I0621 14:24:11.684618  2230 global.h:36] NewGlobal N7oneflow12EpollCommNetE
+I0621 14:24:11.684721  2230 epoll_comm_network.cpp:63] CommNet:Epoll listening on 0.0.0.0:46227
+I0621 14:24:11.684754  2230 epoll_comm_network.cpp:198] machine 0 sockfd -1
+I0621 14:24:11.684880  2230 global.h:36] NewGlobal N7oneflow9TransportE
+I0621 14:24:11.834867  2230 global.h:43] DeleteGlobal N7oneflow12ResourceDescE
+I0621 14:24:11.834925  2230 version.cpp:23] OneFlow git version: 903efa153
+I0621 14:24:11.834949  2230 device_register_gpu.cpp:56] CUDA runtime version: 11.2
+I0621 14:24:11.834980  2230 device_register_gpu.cpp:65] cuDNN version: 8.1.1
+I0621 14:24:11.834983  2230 device_register_gpu.cpp:76] NCCL version: 20.9.8
+I0621 14:24:11.834987  2230 global.h:36] NewGlobal N7oneflow12ResourceDescE
+I0621 14:24:11.834991  2230 global.h:36] NewGlobal N7oneflow6IOConfE
+I0621 14:24:11.834995  2230 global.h:36] NewGlobal N7oneflow12ProfilerConfE
+I0621 14:24:11.835001  2230 session.h:53] NewGlobal N7oneflow25SessionGlobalObjectsScopeE
+F0621 14:24:14.012902  4801 cuda_stream_type.cpp:65] Check failed: cudaGetLastError() : driver shutting down (4) 

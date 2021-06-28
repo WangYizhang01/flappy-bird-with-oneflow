@@ -1,0 +1,29 @@
+Log file created at: 2021/06/18 14:32:59
+Running on machine: tianshu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0618 14:32:59.814262 132622 global.h:36] NewGlobal 14cudaDeviceProp
+I0618 14:32:59.940671 132622 global.h:36] NewGlobal N7oneflow7EnvDescE
+I0618 14:32:59.940702 132622 global.h:36] NewGlobal N7oneflow10ProcessCtxE
+I0618 14:32:59.940709 132622 env_global_objects_scope.cpp:112] using rpc backend: local
+I0618 14:32:59.940718 132622 global.h:36] NewGlobal N7oneflow12ResourceDescE
+I0618 14:32:59.940724 132622 global.h:36] NewGlobal N7oneflow12ResourceDescE
+I0618 14:32:59.949098 132622 global.h:36] NewGlobal N7oneflow10ThreadPoolE
+I0618 14:32:59.957134 132622 global.h:36] NewGlobal N7oneflow16EagerNcclCommMgrE
+I0618 14:32:59.957147 132622 global.h:36] NewGlobal N7oneflow18CudnnConvAlgoCacheE
+I0618 14:32:59.957151 132622 global.h:36] NewGlobal N7oneflow2vm19VirtualMachineScopeE
+I0618 14:32:59.957155 132622 global.h:36] NewGlobal N7oneflow9OneflowVME
+I0618 14:33:00.021387 132622 global.h:36] NewGlobal N7oneflow27EagerJobBuildAndInferCtxMgrE
+I0618 14:33:00.021451 132622 global.h:36] NewGlobal N7oneflow12EpollCommNetE
+I0618 14:33:00.021557 132622 epoll_comm_network.cpp:63] CommNet:Epoll listening on 0.0.0.0:38631
+I0618 14:33:00.021592 132622 epoll_comm_network.cpp:198] machine 0 sockfd -1
+I0618 14:33:00.021704 132622 global.h:36] NewGlobal N7oneflow9TransportE
+I0618 14:33:00.181416 132622 global.h:43] DeleteGlobal N7oneflow12ResourceDescE
+I0618 14:33:00.181468 132622 version.cpp:23] OneFlow git version: 3af1b270f
+I0618 14:33:00.181483 132622 device_register_gpu.cpp:56] CUDA runtime version: 11.2
+I0618 14:33:00.181499 132622 device_register_gpu.cpp:65] cuDNN version: 8.1.1
+I0618 14:33:00.181502 132622 device_register_gpu.cpp:76] NCCL version: 20.9.8
+I0618 14:33:00.181505 132622 global.h:36] NewGlobal N7oneflow12ResourceDescE
+I0618 14:33:00.181509 132622 global.h:36] NewGlobal N7oneflow6IOConfE
+I0618 14:33:00.181514 132622 global.h:36] NewGlobal N7oneflow12ProfilerConfE
+I0618 14:33:00.181519 132622 session.h:53] NewGlobal N7oneflow25SessionGlobalObjectsScopeE
+F0618 14:33:02.731976 135007 cudnn_conv_util.cpp:331] Check failed: cudnnCreate(&handle_) : CUDNN_STATUS_NOT_INITIALIZED (1) 

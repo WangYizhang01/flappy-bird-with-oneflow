@@ -1,0 +1,4 @@
+Log file created at: 2021/06/18 16:59:56
+Running on machine: tianshu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0618 16:59:56.284956 184054 new_kernel_util.cu:24] Check failed: cudaMemcpyAsync(dst, src, sz, cudaMemcpyDefault, ctx->cuda_stream()) : driver shutting down (4) 
