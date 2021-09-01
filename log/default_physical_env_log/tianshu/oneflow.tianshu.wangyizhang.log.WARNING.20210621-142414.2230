@@ -1,4 +1,0 @@
-Log file created at: 2021/06/21 14:24:14
-Running on machine: tianshu
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-F0621 14:24:14.012902  4801 cuda_stream_type.cpp:65] Check failed: cudaGetLastError() : driver shutting down (4) 

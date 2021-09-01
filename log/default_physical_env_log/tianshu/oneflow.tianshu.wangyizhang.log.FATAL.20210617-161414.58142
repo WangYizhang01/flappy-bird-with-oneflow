@@ -1,4 +1,0 @@
-Log file created at: 2021/06/17 16:14:14
-Running on machine: tianshu
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-F0617 16:14:14.017421 58142 embedded_list.h:108] Check failed: list_empty == size_empty (0 vs. 1) 

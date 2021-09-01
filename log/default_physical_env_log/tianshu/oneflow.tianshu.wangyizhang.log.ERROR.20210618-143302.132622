@@ -1,4 +1,0 @@
-Log file created at: 2021/06/18 14:33:02
-Running on machine: tianshu
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-F0618 14:33:02.731976 135007 cudnn_conv_util.cpp:331] Check failed: cudnnCreate(&handle_) : CUDNN_STATUS_NOT_INITIALIZED (1) 

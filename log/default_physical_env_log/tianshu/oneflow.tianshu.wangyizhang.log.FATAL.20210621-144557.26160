@@ -1,4 +1,0 @@
-Log file created at: 2021/06/21 14:45:57
-Running on machine: tianshu
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-F0621 14:45:57.724287 28491 new_kernel_util.cu:29] Check failed: cudaMemsetAsync(dst, value, sz, ctx->cuda_stream()) : driver shutting down (4) 

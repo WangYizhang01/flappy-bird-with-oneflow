@@ -1,4 +1,0 @@
-Log file created at: 2021/06/21 14:08:17
-Running on machine: tianshu
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-F0621 14:08:17.599984 206888 conv_cudnn_kernels.cpp:263] Check failed: cudnnConvolutionBackwardData( ctx->device_ctx()->cudnn_handle(), alpha, args.wdesc.Get(), filter->dptr(), args.ydesc.Get(), dy->dptr(), args.cdesc.Get(), algo_perf.algo, buf->mut_dptr(), args.params.max_ws_size, beta, args.xdesc.Get(), dx->mut_dptr()) : CUDNN_STATUS_EXECUTION_FAILED (8) 
